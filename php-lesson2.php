@@ -10,7 +10,7 @@
 		echo 'Initial number: ' . $x . '<br>';
 		$first = 1;
 		$second = 1;
-		while ($i = 1) {
+		while (true) {
 			if ($first == $x) {
 				echo 'Задуманное число входит в числовой ряд';
 				break;
