@@ -6,7 +6,7 @@
 </head>
 <body>
 	<?php
-		$x = $_GET[x];
+		$x = rand(0, 100);
 		echo 'Initial number: ' . $x . '<br>';
 		$first = 1;
 		$second = 1;
